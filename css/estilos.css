@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/fondo.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+
+#flex-container{
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 0%;
+}
+
+
+.caja1{
+    background-color: #E6E6E6;
+    position: relative;
+    text-align: left;
+    margin-left: 7%;
+    width: 70%;
+    
+}
+
+
+.imagen {
+    justify-content: center;
+    justify-self: center;
+    margin-left: 33%;
+    margin-top: 5%;
+    
+}
+
+h1 {
+    color: #094293;
+    font-size: 80px;
+    text-align: left;
+}
+
+h2 {
+    color: #094293;
+    font-family: 'Tilt Warp', cursive;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h5 {
+    font-size: large;
+}
+
+h6{
+    font-size: large;
+
+}
+
+.caja2 {
+    background-color: whitesmoke;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    width: 70%;
+    margin-left: 2%;
+    
+
+    margin-right: 7%;
+}
+
+.acerca {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.licenciado {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -3%;
+    justify-content: center;
+    justify-self: center;
+}
+
+.educacion {
+    background-color: whitesmoke;
+    
+}
+
+.lista2 {
+    justify-content: left;
+    justify-self: left;
+    text-align: left;
+   
+  
+}
+
+p{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.colorete {
+    background-color: #b5caf9;
+}
+
+.colorh6 {
+    background-color: aquamarine;
+}
+
+
+
+.listasnav{
+    display: inline;
+    float: left;
+}
+
+.ulnav {
+    list-style-type: none;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+  }
+
+  li a {
+    display: inline-block;
+    padding: 30px;
+    color: white;
+
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+
+  #botontema {
+    display: inline-block;
+    padding: 30px;
+    color: white;
+  }
+
+  #botontema:hover{
+    background-color: #111;
+  }
+
+
+
+  .css-button-sharp--blue {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #2c0b8e;
+    background: #2c0b8e;
+  }
+  .css-button-sharp--blue:hover {
+    background: #fff;
+    color: #2c0b8e
+  }
+
+  #demo {
+    font-size: 25px;
+  }
+
+  #datos{
+   font-size: 25px;
+  }
+
+  .css-button-shadow-border-sliding--black {
+    min-width: 130px;
+    height: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-left: 81%;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #212529;
+   z-index: 1;
+  }
+ 
